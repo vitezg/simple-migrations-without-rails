@@ -1,0 +1,5 @@
+Simple example for using ActiveRecord migrations without Rails.
+Adapt for your own needs!
+
+For more information, please check this blog post:
+http://elevat.eu/blog/2012/05/dead-simple-activerecord-migrations-without-rails/
