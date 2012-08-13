@@ -12,3 +12,8 @@ To migrate the database, create the appropriate file in migrations, and run
 ruby migratedb.rb [version_to_migrate_to]
 
 [version_to_migrate_to] is optional, and defaults to the highest version.
+
+E.g.: ruby migratedb.rb 1
+
+This will migrate the db to version 1, either upwards or downwards,
+depending on the current version.
