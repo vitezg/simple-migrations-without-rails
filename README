@@ -3,3 +3,12 @@ Adapt for your own needs!
 
 For more information, please check this blog post:
 http://elevat.eu/blog/2012/05/dead-simple-activerecord-migrations-without-rails/
+
+standalone_table_creation.rb can create a DB table with ActiveRecord without
+the other files, while the rest of the code demonstrates versioned
+migrations.
+
+To migrate the database, create the appropriate file in migrations, and run
+ruby migratedb.rb [version_to_migrate_to]
+
+[version_to_migrate_to] is optional, and defaults to the highest version.
