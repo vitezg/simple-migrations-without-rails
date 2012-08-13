@@ -15,5 +15,4 @@ ruby migratedb.rb [version_to_migrate_to]
 
 E.g.: ruby migratedb.rb 1
 
-This will migrate the db to version 1, either upwards or downwards,
-depending on the current version.
+This will migrate the db to version 1, either upwards or downwards depending on the current version.
